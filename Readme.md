@@ -1,3 +1,3 @@
-# Schoolars
+# Schoolarsh
 
-Repository project aplikasi schoolars
+Repository project aplikasi schoolarsh
