@@ -485,6 +485,10 @@
   color: #979797;
 }
 
+.join__input_container textarea {
+  resize: none;
+}
+
 .join__form button {
   padding: 16px 0;
   border: none;
@@ -494,11 +498,6 @@
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   border-radius: 10px;
-}
-
-.join__right {
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .join__right ol {
