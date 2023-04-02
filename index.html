@@ -10,9 +10,16 @@
       name="description"
       content="This websites is provide resources on how to write scholarship essays, prepare for interviews, and other tips to increase a student's chances of receiving a scholarship."
     />
+    <!-- Current Page Style -->
     <link rel="stylesheet" href="assets/css/index.css" />
+
+    <!-- Global Style -->
     <link rel="stylesheet" href="assets/css/global.css" />
+
+    <!-- Global Script -->
     <script src="assets/js/script.js" defer></script>
+
+    <!-- Current Page Script -->
     <script src="assets/js/index.js" defer></script>
   </head>
   <body>
@@ -32,7 +39,8 @@
         <a href="about.html">About</a>
         <a href="scholarship.html">Scholarship</a>
         <a href="tips.html">Tips</a>
-        <a href="information.html">Information</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
       </div>
       <div class="navbar__action">
         <a href="login.html">Login</a>
@@ -146,6 +154,7 @@
       </div>
     </section>
 
+    <!-- Degree Level -->
     <section class="degree_level">
       <div>
         <h3 class="degree_level__heading">Scholarship by Degree Level</h3>
@@ -200,6 +209,104 @@
       <div class="degree_level__caraousel_navigation">
         <div class="button_1 active"></div>
         <div class="button_2"></div>
+      </div>
+    </section>
+
+    <!-- Useful Tips -->
+    <section class="useful_tips">
+      <div class="useful_tips__heading">
+        <h3>Useful Tips</h3>
+      </div>
+      <div class="useful_tips__title">
+        <img src="assets/img/female.svg" alt="female student" />
+        <h2>SCHOOLARSH EDITION</h2>
+        <img src="assets/img/male.svg" alt="male student" />
+      </div>
+      <div class="useful_tips__paragraph">
+        <p>
+          A schoolars website provides helpful tips for students looking to
+          apply for scholarships. It emphasizes the importance of starting the
+          scholarship search early and keeping an open mind about different
+          types of scholarships and funding sources.
+        </p>
+      </div>
+      <div class="useful_tips__card_container">
+        <div class="useful_tips__card">
+          <img src="assets/img/tablet.svg" alt="tablet" />
+          <h6>Start your search early</h6>
+          <p>
+            It's important to start your scholarship search as early as possible
+            so that you have enough time to research and apply for the ones that
+            interest you.
+          </p>
+        </div>
+        <div class="useful_tips__card">
+          <img src="assets/img/read.svg" alt="read" />
+          <h6>Keep an open mind</h6>
+          <p>
+            Don't limit yourself to just one type of scholarship or one source
+            of funding. Explore different options and be open to new
+            opportunities.
+          </p>
+        </div>
+        <div class="useful_tips__card">
+          <img src="assets/img/brain.svg" alt="brain" />
+          <h6>Focus on your strengths</h6>
+          <p>
+            Look for scholarships that align with your academic or
+            extracurricular strengths, as this will increase your chances of
+            success.
+          </p>
+        </div>
+      </div>
+      <div class="useful_tips__button">
+        <a href="tips.html">More Tips</a>
+        <a href="about.html">Learn About Schoolars</a>
+      </div>
+    </section>
+
+    <!-- Join  -->
+    <section class="join">
+      <div class="join__left">
+        <h3 class="join__heading">
+          Join our email list now and get a free <br />
+          information about scholarship
+        </h3>
+        <form class="join__form">
+          <div class="join__input_container">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Schoolarsh" />
+          </div>
+          <div class="join__input_container">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="schoolars@hip.com" />
+          </div>
+          <div class="join__input_container">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Must be 8 to 12 characters"
+            />
+          </div>
+          <div class="join__input_container">
+            <label for="message">How did you hear about us?</label>
+            <textarea name="message" id="message" cols="30" rows="5">
+Type here your message</textarea
+            >
+          </div>
+          <button type="submit">Join mailing list</button>
+        </form>
+      </div>
+      <div class="join__right">
+        <img src="assets/img/hat2.svg" alt="Hat" />
+        <ol>
+          <li>Increased Opportunities with information about scholarships</li>
+          <li>Financial Assistance and Financial Support</li>
+          <li>Reduced Student Loan Debt</li>
+          <li>Improved Education and Motivation</li>
+          <li>Increased Confidence</li>
+        </ol>
       </div>
     </section>
   </body>
