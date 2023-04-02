@@ -100,6 +100,13 @@ body {
   margin-left: 12px;
 }
 
+.navbar__search_bar input::-webkit-search-cancel-button {
+  appearance: none;
+  background: url("../img/cross.svg");
+  height: 12px;
+  width: 12px;
+}
+
 .navbar__links {
   display: flex;
   align-items: center;
