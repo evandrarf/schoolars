@@ -1,0 +1,352 @@
+/* Active Effect to Link in this page */
+.navbar__links a:nth-child(3) {
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__links a:nth-child(3)::after {
+  content: "";
+  height: 2px;
+  width: 120%;
+  position: absolute;
+  background-color: #000;
+  bottom: 0;
+  left: -8px;
+}
+
+/* Header Section */
+
+.header {
+  min-height: 517px;
+  margin-top: 80px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding: 78px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -10;
+  opacity: 10%;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(
+    0deg,
+    rgb(53, 131, 93, 0) 0%,
+    rgb(53, 131, 93, 0.8) 50%,
+    #35835d 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+.header__input_container {
+  display: flex;
+  gap: 30px;
+}
+
+.header__input_container select,
+.header__input_container option {
+  width: 280px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #333333;
+  cursor: pointer;
+  padding: 16px 12px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.header__input_container select::-ms-expand {
+  margin-right: 10px;
+  appearance: none;
+}
+
+.header__input_container button {
+  padding: 0 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #34be82;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Scholarship Section */
+.scholarship {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.scholarship__title {
+  padding: 25px 140px;
+  border-radius: 36px;
+  margin-top: -35px;
+  background-color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.scholarship__paragraph {
+  text-align: center;
+  font-size: 24px;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.scholarship__scholarsh {
+  padding: 25px 46px;
+  border-radius: 50px;
+  background-color: rgb(53, 131, 93, 0.13);
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #35835d;
+  font-weight: 700;
+}
+
+.scholarship__container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px 50px;
+}
+
+.scholarship__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scholarship__item img {
+  height: 288px;
+}
+
+.scholarship__item p {
+  margin-top: 30px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+}
+
+.scholarship__link {
+  align-self: flex-end;
+  margin-top: 35px;
+}
+
+.scholarship__link a {
+  font-weight: 500;
+  color: #35835d;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/* Recent Updates Section */
+.updates {
+  margin-top: 200px;
+  padding: 0 120px;
+}
+
+.updates__title {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 40px;
+}
+
+.updates__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.updates__link {
+  font-weight: 500;
+  color: #35835d;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.updates__container {
+  display: flex;
+  gap: 32px;
+}
+
+.updates__item {
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.05);
+  min-height: 370px;
+  flex: 1;
+}
+
+.updates__item_top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 320px;
+  width: 100%;
+  padding: 0 36px;
+  color: #fff;
+}
+
+.updates__item_top img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.updates__item_top h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 165px;
+  z-index: 20;
+  text-align: center;
+}
+
+.updates__item_top p {
+  font-weight: 600;
+  font-size: 12px;
+  z-index: 20;
+  margin-top: 10px;
+}
+
+.updates__item_top span {
+  font-size: 12px;
+  font-weight: 600;
+  z-index: 20;
+  margin-top: 50px;
+}
+
+.updates__item_bottom {
+  padding: 20px 16px 16px 16px;
+}
+
+.updates__item_bottom a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.updates__item_bottom span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Ads Section */
+.ads {
+  margin-top: 70px;
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.ads__top {
+  display: flex;
+  gap: 32px;
+}
+
+.ads__item {
+  flex: 1;
+  border-radius: 3px;
+  display: flex;
+  min-height: 260px;
+  padding: 36px 50px;
+}
+
+.ads__item:first-child {
+  background: rgba(0, 104, 56, 0.08);
+  color: #000;
+}
+
+.ads__item:last-child {
+  background: #35835d;
+  color: #fff;
+}
+
+.ads__item_left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ads__item_left img {
+  width: 45px;
+  height: 45px;
+}
+
+.ads__item_left h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+.ads__item_left a {
+  text-decoration: none;
+  padding: 6px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.ads__item:first-child a {
+  background-color: #35835d;
+  color: #fff;
+}
+
+.ads__item:last-child a {
+  background-color: #fff;
+  color: #000;
+}
+
+.ads__item_right {
+  display: flex;
+  position: relative;
+  min-width: 30%;
+}
+
+.ads__item:first-child .ads__item_right img {
+  position: absolute;
+  bottom: -35px;
+}
+
+.ads__bottom {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+}

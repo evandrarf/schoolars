@@ -291,6 +291,8 @@
     0px 10px 10px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
   min-height: 448px;
+  /* flex: 1; */
+  width: 100%;
 }
 
 .our_team__card > img {
