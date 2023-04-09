@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schoolarsh | Login</title>
+    <link rel="icon" type="image/svg" href="assets/img/logo.svg" />
+    <meta
+      name="description"
+      content="This websites is provide resources on how to write scholarship essays, prepare for interviews, and other tips to increase a student's chances of receiving a scholarship."
+    />
+
+    <!-- Global Style -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+
+    <!-- Auth Page Style -->
+    <link rel="stylesheet" href="assets/css/auth.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="assets/img/logo.svg" alt="logo" />
+        <div class="navbar__pipe"></div>
+        <span>schoolarsh</span>
+      </div>
+    </nav>
+    <section class="content">
+      <div class="content__left">
+        <h1>Schoolarsh</h1>
+        <p>Input your data correctly</p>
+        <form class="content__form">
+          <div class="input__container">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="schoolarsh@example.com"
+            />
+          </div>
+          <div class="input__container">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your Password"
+            />
+          </div>
+          <div class="additional__container">
+            <div class="check__container">
+              <input type="checkbox" name="remember" id="remember" />
+              <label for="remember">Save Password</label>
+            </div>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit">Log in</button>
+          <a href="#" class="content__left_login_google">
+            <img src="assets/img/google-logo.svg" alt="google" /> Log in with
+            Google
+          </a>
+          <span class="content__left_remember"
+            >Don't have an account? <a href="register.html">Sign up</a></span
+          >
+        </form>
+      </div>
+      <div class="content__right">
+        <img src="assets/img/auth-image.svg" alt="auth" />
+      </div>
+    </section>
+    <img src="assets/img/auth-bg.svg" class="auth-bg" alt="auth-bg" />
+  </body>
+</html>
