@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schoolarsh | Sign Up</title>
+    <link rel="icon" type="image/svg" href="assets/img/logo.svg" />
+    <meta
+      name="description"
+      content="This websites is provide resources on how to write scholarship essays, prepare for interviews, and other tips to increase a student's chances of receiving a scholarship."
+    />
+
+    <!-- Global Style -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+
+    <!-- Auth Page Style -->
+    <link rel="stylesheet" href="assets/css/auth.css" />
+
+    <!-- Current Page Additional Style -->
+    <link rel="stylesheet" href="assets/css/register.css" />
+
+    <!-- Auth Page Script -->
+    <script src="assets/js/auth.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/" class="navbar__logo">
+        <img src="assets/img/logo.svg" alt="logo" />
+        <div class="navbar__pipe"></div>
+        <span>schoolarsh</span>
+      </a>
+    </nav>
+    <section class="content">
+      <div class="content__left">
+        <h1>Schoolarsh</h1>
+        <p>Input your data correctly</p>
+        <form class="content__form" method="POST">
+          <div class="input__container">
+            <label for="name">Name</label>
+            <input type="name" name="name" id="name" placeholder="Schoolarsh" />
+          </div>
+          <div class="input__container">
+            <label for="country">Country</label>
+            <input
+              type="country"
+              name="country"
+              id="country"
+              placeholder="Indonesia"
+            />
+          </div>
+          <div class="input__container">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="schoolarsh@example.com"
+            />
+          </div>
+
+          <div class="input__container">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your Password"
+            />
+          </div>
+
+          <button type="submit">Log in</button>
+          <a href="#" class="content__left_login_google">
+            <img src="assets/img/google-logo.svg" alt="google" /> Log in with
+            Google
+          </a>
+          <span class="content__left_remember"
+            >Have an account? <a href="login.html">Log in</a></span
+          >
+        </form>
+      </div>
+      <div class="content__right">
+        <img src="assets/img/auth-image.svg" alt="auth" />
+      </div>
+    </section>
+    <img src="assets/img/auth-bg.svg" class="auth-bg" alt="auth-bg" />
+  </body>
+</html>

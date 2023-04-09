@@ -1,0 +1,15 @@
+body {
+  overflow-y: auto;
+}
+
+.content__right img {
+  top: 0;
+}
+
+.auth-bg {
+  height: 120%;
+}
+
+.content__left button {
+  margin-top: 12px;
+}
