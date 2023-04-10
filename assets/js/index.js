@@ -29,3 +29,9 @@ button1.addEventListener("click", () => {
   button1.classList.add("active");
   button2.classList.remove("active");
 });
+
+const form = document.querySelector(".join__form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
