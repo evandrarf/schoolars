@@ -233,6 +233,22 @@ body {
   color: #303a42;
 }
 
+.tips__paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: rgba(48, 58, 66, 0.8);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tips__paragraph p {
+  line-height: 30px;
+  letter-spacing: 2%;
+  width: 65%;
+  text-align: center;
+}
+
 .tips__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -256,14 +272,14 @@ body {
 
 .tips__card img {
   position: absolute;
-  top: -40px;
+  top: -35px;
 }
 
 .tips__card h6 {
   font-size: 22px;
   font-weight: 600;
   color: #303a42;
-  margin-top: 20px;
+  margin-top: 24px;
   text-align: center;
 }
 
