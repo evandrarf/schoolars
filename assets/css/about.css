@@ -14,7 +14,7 @@
   position: absolute;
   background-color: #000;
   bottom: 0;
-  left: -4px;
+  left: -5px;
 }
 
 /* About Us Section */
@@ -172,6 +172,7 @@
   font-size: 18px;
   font-weight: 500;
   color: #979797;
+  text-align: center;
   margin-bottom: 80px;
 }
 
@@ -195,6 +196,7 @@
 .about_content__why_container > div > h5 {
   font-size: 20px;
   font-weight: 500;
+  text-align: center;
 }
 
 /* We Are Schoolarsh Section */

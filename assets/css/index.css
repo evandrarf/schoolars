@@ -14,7 +14,7 @@
   position: absolute;
   background-color: #000;
   bottom: 0;
-  left: -4px;
+  left: -5px;
 }
 
 /* Header */
@@ -102,7 +102,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 14px 22px;
+  padding: 14px 36px 14px 48px;
   border-radius: 10px;
   background-color: #34be82;
 }
@@ -112,6 +112,8 @@
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+  display: flex;
+  gap: 15px;
 }
 
 /* About */
@@ -140,6 +142,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 10px;
+  flex: 1;
 }
 
 .about__card_top {
@@ -269,25 +272,7 @@
   color: #fff;
   font-weight: 600;
   font-size: 20px;
-}
-
-.degree_level__caraousel_navigation {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  gap: 10px;
-}
-
-.degree_level__caraousel_navigation div {
-  width: 16px;
-  height: 16px;
-  background-color: rgba(125, 175, 151, 0.7);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.degree_level__caraousel_navigation div.active {
-  background-color: #35835d;
+  margin-top: 10px;
 }
 
 /* Useful Tips */
