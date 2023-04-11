@@ -61,6 +61,12 @@
   gap: 30px;
 }
 
+.header__input_container select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .header__input_container select,
 .header__input_container option {
   width: 280px;
