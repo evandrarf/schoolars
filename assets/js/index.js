@@ -1,37 +1,37 @@
 // Slider
-const leftArrow = document.querySelector(".degree_level__left_arrow ");
-const rightArrow = document.querySelector(".degree_level__right_arrow ");
-const button1 = document.querySelector(".button_1");
-const button2 = document.querySelector(".button_2");
+// const leftArrow = document.querySelector(".degree_level__left_arrow ");
+// const rightArrow = document.querySelector(".degree_level__right_arrow ");
+// const button1 = document.querySelector(".button_1");
+// const button2 = document.querySelector(".button_2");
 
-const slider = document.querySelector(".degree_level__caraousel");
+// const slider = document.querySelector(".degree_level__caraousel");
 
-rightArrow.addEventListener("click", () => {
-  slider.classList.add("active");
-  button2.classList.add("active");
-  button1.classList.remove("active");
-});
+// rightArrow.addEventListener("click", () => {
+//   slider.classList.add("active");
+//   button2.classList.add("active");
+//   button1.classList.remove("active");
+// });
 
-leftArrow.addEventListener("click", () => {
-  slider.classList.remove("active");
-  button1.classList.add("active");
-  button2.classList.remove("active");
-});
+// leftArrow.addEventListener("click", () => {
+//   slider.classList.remove("active");
+//   button1.classList.add("active");
+//   button2.classList.remove("active");
+// });
 
-button2.addEventListener("click", () => {
-  slider.classList.add("active");
-  button2.classList.add("active");
-  button1.classList.remove("active");
-});
+// button2.addEventListener("click", () => {
+//   slider.classList.add("active");
+//   button2.classList.add("active");
+//   button1.classList.remove("active");
+// });
 
-button1.addEventListener("click", () => {
-  slider.classList.remove("active");
-  button1.classList.add("active");
-  button2.classList.remove("active");
-});
+// button1.addEventListener("click", () => {
+//   slider.classList.remove("active");
+//   button1.classList.add("active");
+//   button2.classList.remove("active");
+// });
 
-const form = document.querySelector(".join__form");
+const formElem = document.querySelector("#join__form");
 
-form.addEventListener("submit", (e) => {
+formElem.addEventListener("submit", (e) => {
   e.preventDefault();
 });
